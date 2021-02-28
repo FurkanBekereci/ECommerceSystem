@@ -14,8 +14,7 @@ namespace Core.CrossCuttingConcerns.Validation.FluentValidation
 
             if (!result.IsValid)
             {
-                throw new ValidationException(result.Errors);
-                int x = 1;
+                throw new ValidationException(result.Errors);                
             }
         }
     }
