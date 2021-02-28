@@ -11,5 +11,6 @@ namespace Business.Abstract
         IDataResult<List<Category>> GetAll();
 
         IDataResult<Category> GetCategoryById(int id);
+        
     }
 }
